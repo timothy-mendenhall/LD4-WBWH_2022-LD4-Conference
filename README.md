@@ -10,13 +10,14 @@ Useful links
 Workshop section on querying
 ============================
 - [Query service](https://ld4-wbs-test.wikibase.cloud/query/) of our wikibase.cloud instance
-- [First query](/firstQuery_noPrefix_ld4-wbwh_2022-07-11.rq)
-- [Second query](secondQuery_withPrefix_ld4-wbwh_2022-07-11.rq)
-- [Third query](thirdQuery_withVizualization_ld4-wbwh_2022-07-11.rq)
+- [First query](/firstQuery_noPrefix_ld4-wbwh_2022-07-11.rq) with no prefixes
+- [Second query](secondQuery_withPrefix_ld4-wbwh_2022-07-11.rq) with prefixes
+- [Third query](thirdQuery_withVizualization_ld4-wbwh_2022-07-11.rq) with qualifier and visualization
 
 Workshop section on QuickStatements
 ===================================
 - [QuickStatements syntax reference page](https://www.wikidata.org/wiki/Help:QuickStatements)
+- [Dataset](LD4-2022_WBWH_Dataset - ForQuickStatementsDemo.csv) used during the demo
 
 Workshop section on OpenRefine
 ==============================
