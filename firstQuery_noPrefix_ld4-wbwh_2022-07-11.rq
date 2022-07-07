@@ -1,0 +1,11 @@
+SELECT ?lcsh ?lcshLabel ?institution ?institutionLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?lcsh <https://ld4-wbs-test.wikibase.cloud/prop/direct/P2> 
+                            # the item’s source vocabulary is LCSH
+  <https://ld4-wbs-test.wikibase.cloud/entity/Q2>.             
+                            # the item has an alternative, related term
+  ?lcsh <https://ld4-wbs-test.wikibase.cloud/prop/direct/P4> ?relatedterm.
+  ?relatedterm <https://ld4-wbs-test.wikibase.cloud/prop/direct/P3> ?institution.
+                            # the related term is in use by an institution
+}
+LIMIT 100

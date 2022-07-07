@@ -1,0 +1,12 @@
+#defaultView:Timeline
+PREFIX wdt: <https://ld4-wbs-test.wikibase.cloud/prop/direct/>
+PREFIX wd: <https://ld4-wbs-test.wikibase.cloud/entity/>
+PREFIX p: <https://ld4-wbs-test.wikibase.cloud/prop/>
+PREFIX pq: <https://ld4-wbs-test.wikibase.cloud/prop/qualifier/>
+SELECT ?term ?termLabel ?date ?institution ?institutionLabel WHERE {
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    ?term wdt:P3 ?institution.    
+    ?term p:P3 ?statement.        # p: object of this property is a statement
+    ?statement pq:P5 ?date.         # pq: retrieves value of qualifier on that statement
+}
+LIMIT 100
