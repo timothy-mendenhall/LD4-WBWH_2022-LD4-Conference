@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "mediawiki": {
+        "name": "LD4 Wikibase Working Hour: LCSH Alternatives Sandbox Wikibase",
+        "root": "https://ld4-wbs-test.wikibase.cloud/wiki/",
+        "main_page": "https://ld4-wbs-test.wikibase.cloud/wiki/Main_Page",
+        "api": "https://ld4-wbs-test.wikibase.cloud/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "https://ld4-wbs-test.wikibase.cloud/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P1",
+            "subclass_of": "P16"
+        }
+    },
+    "oauth": {
+        "registration_page": "https://ld4-wbs-test.wikibase.cloud/wiki/Special:OAuthConsumerRegistration/propose"
+    },
+    // note this URL will throw an error; try using https://or-wikibase-test.reconci.link/${lang}/api
+    "reconciliation": {
+        "endpoint": "http://localhost:8000/${lang}/api"
+    }
+}
