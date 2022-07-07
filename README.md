@@ -13,6 +13,8 @@ Workshop section on querying
 - [First query](/firstQuery_noPrefix_ld4-wbwh_2022-07-11.rq) with no prefixes
 - [Second query](secondQuery_withPrefix_ld4-wbwh_2022-07-11.rq) with prefixes
 - [Third query](thirdQuery_withVizualization_ld4-wbwh_2022-07-11.rq) with qualifier and visualization
+- [Fourth query](fourthQuery_HandsOnExercise_ld4-wbwh_2022-07-11.rq) used in hands-on exercises
+- [Fifth query](fifthQuery_ld4-wbwh_2022-07-11.rq) used in hands-on exercises
 
 Workshop section on QuickStatements
 ===================================
