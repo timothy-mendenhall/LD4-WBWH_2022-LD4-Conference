@@ -1,0 +1,9 @@
+PREFIX wdt: <https://ld4-wbs-test.wikibase.cloud/prop/direct/>
+PREFIX wd: <https://ld4-wbs-test.wikibase.cloud/entity/>
+SELECT ?lcsh ?lcshLabel ?institution ?institutionLabel ?relatedterm ?relatedtermLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?lcsh wdt:P2 wd:Q2. 				# the item’s source vocabulary is LCSH
+  ?lcsh wdt:P4 ?relatedterm.			# the item has an alternative, related term
+  ?relatedterm wdt:P3 ?institution.		# the related term is in use by an institution
+}
+LIMIT 100

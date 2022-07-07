@@ -1,0 +1,8 @@
+PREFIX wdt: <https://ld4-wbs-test.wikibase.cloud/prop/direct/>
+PREFIX wd: <https://ld4-wbs-test.wikibase.cloud/entity/>
+
+SELECT ?preferredlocallabel ?preferredlocallabelLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?preferredlocallabel wdt:P1 wd:Q12.
+}
+LIMIT 100
