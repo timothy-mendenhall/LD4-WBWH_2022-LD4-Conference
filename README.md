@@ -30,6 +30,7 @@ Workshop section on OpenRefine
 - [OpenRefine to Wikibase: data upload pipeline](https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline#Reconcile_with_Wikibase)
 - [TIB presentation](https://docs.google.com/presentation/d/13EXuFoe9uecSN7D6ufl4ogdutGwkpa2VtVwihPVN3ig/edit#slide=id.g104e7fdfe4a_0_0) on using OpenRefine with Wikibase instances
 - [Sample Wikibase manifests](https://github.com/OpenRefine/wikibase-manifests) for use with OpenRefine
+
 Code snippets and files used when setting up the reconciliation service
 -----------------------------------------------------------------------
 - `git clone https://github.com/wetneb/openrefine-wikibase`
