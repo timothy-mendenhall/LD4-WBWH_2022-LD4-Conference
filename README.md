@@ -6,6 +6,7 @@ Useful links
 - [Project page](<https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group/Wikibase_and_WBStack_Working_Hours>) of the LD4 Wikibase Working Hour
 - The [wikibase.cloud instance](https://ld4-wbs-test.wikibase.cloud/wiki/Main_Page) used in today's workshop
 - [List of properties](https://ld4-wbs-test.wikibase.cloud/wiki/Special:ListProperties) used in our wikibase.cloud instance
+- [Spreadsheet](https://docs.google.com/spreadsheets/d/1352Io2CLMKeaSTN14VLINbNfbq-MvGUGk5ETfCauMqg/edit?usp=sharing) with application profile for properties
 
 Workshop section on querying
 ============================
