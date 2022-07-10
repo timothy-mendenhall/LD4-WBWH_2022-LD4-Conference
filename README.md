@@ -37,7 +37,7 @@ Code snippets and files used when setting up the reconciliation service
 - `git clone https://github.com/wetneb/openrefine-wikibase`
 - [Sample config file](config.py)
 - `docker-compose up`
-- [Dataset] (LD4_WBStack_reconDemo.csv) used during reconciliation demo
+- [Dataset](LD4_WBStack_reconDemo.csv) used during reconciliation demo
 - [Browser page](http://localhost:8000/) of the reconciliation service
 - http://localhost:8000/en/api : enter this URL when "adding a standard service" to OpenRefine
 - cell.recon.match.id: extracts Q-number of the matched Wikibase item
