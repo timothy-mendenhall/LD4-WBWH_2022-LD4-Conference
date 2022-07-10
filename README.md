@@ -43,3 +43,7 @@ Code snippets and files used when setting up the reconciliation service
 - cell.recon.match.id: extracts Q-number of the matched Wikibase item
 - cell.recon.match.name: extracts the label of the matched Wikibase item
 - [JSON manifest](ld4-wbCloud-test_manifest.json) used during demo
+
+Workshop section using Wikidata with your Wikibase instance
+===========================================================
+- [Federated query](https://tinyurl.com/2fqxsldn)
